@@ -1,0 +1,43 @@
+body {
+  width: 200px;
+  margin: 150px auto;
+  background: url(./photo.me.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 200px;
+  border-radius: 6px;
+  outline: none;
+  padding: 10px;
+}
+
+/* .show {
+  color: #fff;
+  background-color: dimgray;
+  padding: 8px;
+  width: 50px;
+  border-radius: 5px;
+  position: relative;
+  bottom: 51px;
+  left: 195px;
+} */
+
+#container {
+  border: 3px solid darkslategray;
+  box-sizing: border-box;
+  box-shadow: 4px 10px 6px black;
+  height: 194px;
+  width: 260px;
+  border-radius: 10px;
+  background-color: darkslategray;
+  background: url(./photo.me.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
